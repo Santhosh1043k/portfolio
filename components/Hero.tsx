@@ -14,10 +14,10 @@ const Hero = () => {
           fill="white"
         />
         <Spotlight
-          className="h-[80vh] w-[50vw] top-10 left-full"
+          className=" top-10 left-full h-[80vh] w-[50vw]"
           fill="purple"
         />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
+        <Spotlight className="left-80 -top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
 
       <div
@@ -32,7 +32,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
+      <div className="flex justify-center relative my-20 z-20">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Dynamic Web Magic with Next.js
@@ -45,7 +45,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Santhoshkumar, a Frontend Developer based in Madurai.
+            Hi! I&apos;m Santhoshkumar, a Frontend Developer based on Madurai.
           </p>
 
           <a href="#about">
@@ -58,7 +58,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default Hero;
