@@ -135,13 +135,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Santhosh1043k/",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/Santhosh3702?t=rgl8T6Yr3FQ48JZsbiDibA&s=08",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/santhoshkumark493/",
   },
 ];
