@@ -15,7 +15,7 @@ export function AnimatedPinDemo() {
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-              Customizable Tailwind CSS and Framer Motion Components.
+             
             </span>
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
